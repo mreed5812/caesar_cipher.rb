@@ -15,10 +15,10 @@ def cipher (message, key)
     return result
 end
 
-puts 'Enter a phrase: '
+print 'Enter a phrase: '
 phrase = gets
-puts 'Enter a key: '
-key = gets
+print 'Enter a key: '
+key = gets.to_i
 
 
 puts cipher(phrase, key)
